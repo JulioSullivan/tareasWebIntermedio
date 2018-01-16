@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Formularios</title>
+</head>
+<body>
+
+<table class="miTabla">
+	<tr><th><h1>Llena tus datos</h1></th></tr>
+	<tr><td>
+		<form action="">
+		<!--input: elementos del formulario
+			text: ingresa texto sin formato específico-->
+		<span>Nombre: </span><input type="text"><br>
+		<span>Apellido: </span><input type="text"><br>
+		<span>Ingrese contraseña: </span><input type="password"><br>
+		<span>Género: </span>
+		<div>
+			<!--El radio es para la selección de una opción ya dada y con el name hace que sea una u otra, no las dos.-->
+			<input type="radio" value="Femenino" name="genero"><span>Femenino</span>
+			<input type="radio" value="Masculino" name="genero"><span>Masculino</span>
+		</div>
+		<span>Incluir mi foto de perfil </span><input type="file" name="foto" accept="jpg"><br>
+		<span>Acepto los término y condiciones.</span><input type="checkbox" name="terminos"><br>
+		<input type="reset" name="limpiar" value="Borrar datos">
+		<input type="submit">
+	</form>
+	</td></tr>
+</table>
+</body>
+</html>

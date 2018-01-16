@@ -1,0 +1,17 @@
+span{
+	padding: 4px;
+}
+
+table, th, td{
+	border: 3px solid #18786C;
+	text-align: justify-all;
+	border-collapse: collapse;
+}
+
+.miTabla{
+	transform: translate(200px, 200px);
+}
+
+.miTabla tr:nth-child(1){
+	background-color: #26C25D;
+}
